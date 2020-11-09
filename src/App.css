@@ -14,8 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: burlywood;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +34,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  padding: 0;
+}
+
+.button li {
+  display: inline;
+}
+.button li a {
+  font-family: Arial;
+  font-size: 11px;
+  text-decoration: none;
+  float: left;
+  padding: 10px;
+  background-color: #2175bc;
+  color: #fff;
 }
